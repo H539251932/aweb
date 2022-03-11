@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aircraft War</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="gameBody">
+        <div class="gameRule">
+        </div>
+        <div class="gameArea">
+            <div class="gameScore">
+                <span>分数:</span>
+                <span class="scoreNum">0</span>
+            </div>
+            <div class="gameTime">
+                <span>飞行时间:</span>
+                <span class="timeNum">0</span>
+                <span>S</span>
+            </div>
+            <div class="myAircraft" id="myAircraft"></div>
+            <!-- <div class="enemyAircraft e1" id="myAircrafte1"></div>
+            <div class="enemyAircraft e2" id="myAircrafte2"></div>
+            <div class="enemyAircraft e3" id="myAircrafte3"></div>
+            <div class="bullet" id="bullet"></div> -->
+            <div class="shadow">
+                <div onclick="startGame()" class="gamebtn">开始</div>
+                <div class="shadowCenter">
+                    <div class="flyTime">飞行时间</div>
+                    <div class="flyTimeNum">0</div>
+                    <div class="rank">最强王者</div>
+                    <div onclick="startGame()" class="gamebtn">重新开始</div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>

@@ -7,7 +7,7 @@ html,body{
 .gameBody{
     width: 100%;
     height: 100%;
-    background:linear-gradient(to right,#A3D900,#63B8D3);
+    background: linear-gradient(to right, #e2b8f7, #d4bafa, #c7bcfb, #b9befb, #acbff9);
 }
 .gameArea{
     width: calc(100%/3);
